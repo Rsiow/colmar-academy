@@ -1,0 +1,25 @@
+header a {
+    text-decoration: none;
+    color:#404040;
+}
+
+.img-size-60 {
+    width: 60%;
+}
+
+.logo-font-size {
+    font-size: 22px;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+.nav-tab-spacing {
+    padding-left: 16px !important;
+}
+
+.button-size {
+    width: 100%;
+}
