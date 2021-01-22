@@ -3,7 +3,7 @@ header a {
     color:#404040;
 }
 
-.img-size-60 {
+.width-size-60 {
     width: 60%;
 }
 
@@ -22,4 +22,46 @@ header a {
 
 .button-size {
     width: 100%;
+}
+
+.small-row {
+    width: 65%;
+}
+
+.small-row-img {
+    width: 35%;
+    height: auto;
+}
+
+hr {
+	border-top: 3px double rgba(196, 186, 186, 0.91);
+}
+
+.border-color {
+    border-color: rgba(196, 186, 186, 0.91);
+}
+
+.font-custom {
+    font-size: 0.85rem;
+}
+
+#emanuel {
+    font-size:15px;
+}
+
+.background-default-color {
+    background-color: rgba(148, 135, 121, 0.24);
+}
+
+#small-font {
+    font-size: 0.8rem;
+}
+
+#grid-pic {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#grid-height {
+    height: 9rem;
 }
