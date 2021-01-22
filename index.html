@@ -14,31 +14,48 @@
 
 <body>
     <div class="container border-left border-right border-bottom border-color px-0">
-        <header>
+        <header class="d-none d-md-block">
             <!-- Navbar -->
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link pl-3 logo-font-size" href="#"><img src="./images/ic-logo.svg"
-                            alt="Image not supported" class="header-logo"><span
-                            class="font-weight-bold text-dark">COLMAR</span><span class="text-muted">ACADEMY</span></a>
+                    <a class="nav-link pl-3 logo-font-size header-logo" href="#"><img src="./images/ic-logo.svg"
+                            alt="Image not supported"><span class="font-weight-bold text-dark">COLMAR</span><span
+                            class="text-muted">ACADEMY</span></a>
                 </li>
-                <li class="nav-item ml-auto pt-1">
+                <li class="nav-item ml-auto">
                     <a class="nav-link nav-tab-spacing px-0" href="#">On campus</a>
                 </li>
-                <li class="nav-item pt-1">
+                <li class="nav-item">
                     <a class="nav-link nav-tab-spacing px-0" href="#">Online</a>
                 </li>
-                <li class="nav-item pt-1">
+                <li class="nav-item">
                     <a class="nav-link nav-tab-spacing px-0" href="#">For companies</a>
                 </li>
-                <li class="nav-item pt-1">
+                <li class="nav-item">
                     <a class="nav-link nav-tab-spacing px-0 mr-4" href="#">Sign in</a>
+                </li>
+            </ul>
+        </header>
+        <!-- Mobile Navbar -->
+        <header class="d-block d-md-none">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link pl-3" href="#"><img src="./images/ic-logo.svg" alt="logo"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="./images/ic-on-campus.svg" alt="on campus"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="./images/ic-online.svg" alt="online"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="./images/ic-login.svg" alt="login"></a>
                 </li>
             </ul>
         </header>
 
         <!-- Introduction Jumbotron -->
-        <div class="jumbotron py-4 background-default-color">
+        <div class="jumbotron py-4 background-default-color d-none d-md-block">
             <div class="row">
                 <img src="./images/banner.jpg" alt="Group of people studying together" class="width-size-60 py-0">
                 <div class="col">
@@ -49,6 +66,13 @@
                 </div>
             </div>
         </div>
+        <!-- Mobile introduction jumbotron -->
+        <div class="d-block d-md-none background-default-color">
+            <img src=" ./images/banner.jpg" alt="ppl studying together" id="grid-pic">
+            <p class="h3 font-weight-bold py-2 px-3">Learn something new everyday</p>
+            <p class="pb-1 px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a class="btn btn-dark btn-lg button-size mb-4" href="#">Start here</a>
+        </div>
 
         <!-- Keep practicing, Orientation date, Our campus, Our guest lecture -->
         <div class="row">
@@ -58,7 +82,8 @@
                 <p class="font-custom">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ad sapiente
                     architecto,
                     quidem animi
-                    quasi ipsam dolorum pariatur officia ab eum ex quibusdam, reiciendis consectetur a natus at soluta
+                    quasi ipsam dolorum pariatur officia ab eum ex quibusdam, reiciendis consectetur a natus at
+                    soluta
                     voluptatibus?"</p>
                 <p id="emanuel">Emanuel, Sr Strategist at Hiring.com</p>
             </div>
@@ -156,6 +181,7 @@
             </div>
         </div>
         <div class="container">
+            <!-- Thesis Exhibit -->
             <div class="row py-4 my-3">
                 <p class="w-100 text-center h3 font-weight-bold">Thesis exhibit</p>
             </div>
@@ -167,7 +193,8 @@
                     </video>
                     <p class="h5 w-100 pt-3 pb-2">Reimagine urban</p>
                     <p id="small-font">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam iste et
-                        reprehenderit eos saepe sequi commodi, natus facere voluptatibus nemo soluta asperiores repellat
+                        reprehenderit eos saepe sequi commodi, natus facere voluptatibus nemo soluta asperiores
+                        repellat
                         similique ratione expedita debitis porro recusandae sint?"</p>
                 </div>
                 <div class="col-5 pl-3">
